@@ -1,0 +1,59 @@
+<html lang="en">
+    <head>
+        <meta charset="utf-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+        <title> Bootstrap Form </title>
+        <link href="css/bootstrap.min.css" rel="stylesheet">
+    </head>
+    <body>
+        <div class="container mt-5">
+            <h1 class="col-md-6 col-lg-4 offset-md-3 offset-lg-4 mt-4", style="font-size: 45px;">USER INFORMATION FORM</h1>
+            <div>
+                <div class="col-md-6 col-lg-4 offset-md-3 offset-lg-4 mt-4">
+                <form>
+                    <div class="mb-1">
+                        <label for="name" class="form-label">Name</label>
+                        <input type="text" class="form-control" id="name" placeholder="First Name" required />
+                    </div>
+                    <div class="mb-4">
+                        <input type="text" class="form-control" id="name-2" placeholder="Last Name" required/>
+                    </div>
+                    <div class="mb-1">
+                        <label for="Age" class="form-label">Age</label>
+                        <input type="number" class="form-control" id="Age" placeholder="Age" required/>
+                    </div>
+                    <div class="mb-4">
+                        <input type="date" class="form-control" id="dob" required />
+                    </div>
+                    <!-- <div class="dropdown">
+                        <button class="btn btn-primary dropdown-toogle" type="button" data-toogle="dropdown">Gender <span class="caret"></span></button>
+                        <ul class="dropdown-menu">
+                            <li><a href="#">Male</a></li>
+                            <li><a href="#">Female</a></li>
+                            <li><a href="#">Prefer to not mention</a></li>
+                        </ul>
+                    </div> -->
+                    <div class="dropdown mb-4">
+                        <button class="btn btn-primary btn-light dropdown-toggle" type="button" data-toggle="dropdown">Gender
+                        <span class="caret"></span></button>
+                        <ul class="dropdown-menu">
+                            <li><a href="#">Male</a></li>
+                            <li><a href="#">Female</a></li>
+                            <li><a href="#">Prefer to not mention</a></li>
+                        </ul>
+                      </div>
+                    <div class="mb-4">
+                        <label for="idmail" class="form-label">E Mail ID</label>
+                        <input type="email" class="form-control" id="idmail" placeholder="xyz@example.com" required>
+                    </div>
+
+                    <button type="submit" class="btn btn-light   w-100">Submit</button>
+                </form>
+                </div>
+            </div>
+        </div>
+        <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.7.1/jquery.min.js"></script>
+  
+        <script src="js/bootstrap.bundle.min.js"></script>
+    </body>
+</html>
